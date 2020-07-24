@@ -1,4 +1,4 @@
-# Título do projeto
+# Cuidando da familia - Autismo
 
 Esta página tem por objetivo informar e descrever quais dificuldades os pais de um autista possuem em encontrar apoio, em se reestruturar para dar suporte à criança, e lidar com os olhares da sociedade.
 
