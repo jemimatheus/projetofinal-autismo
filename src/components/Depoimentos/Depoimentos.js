@@ -7,9 +7,9 @@ const Depoimentos = (props) => {
     <Fragment>
       <article id="four" className="post invert style2 alt">
         <div className="card" id="depoimentos">
-          <h1 style={{ fontSize: " 2.35em", paddingTop: "2em", textAlign:'center' }}>
+          <h2 style={{ }}>
             Depoimentos
-          </h1>
+          </h2>
           <Card body inverse style={{ color: "white", fontWeight: "bold" }}>
             <CardTitle
               style={{ fontWeight: "bold", fontSize: "30px", color: "#444" }}

@@ -10,6 +10,11 @@
     text-align: justify;
     width: 70%;
     order:2;
+    
+}
+.post.style2.invert h2{
+   font-size: 2em !important ;
+   margin: 80px;
 }
 
 .inner-dep{
@@ -20,5 +25,20 @@
 @media screen and (max-width: 980px) {
     .inner-dep{
         padding-top:0;
+       
     }
 } 
+@media (min-width:310px) and (max-width:670px){
+	.post.style2.invert h2{
+        margin: 0 0 50px 0;
+        padding-top: 50px;
+        font-size: 30px;
+        text-align: center !important;
+        word-spacing: normal !important;
+       
+	}
+	.card{
+        font-size: 17px;
+        word-spacing: normal !important;
+    }
+}

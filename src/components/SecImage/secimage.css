@@ -6,4 +6,10 @@ margin-bottom:-20px;
 
 }
 
+@media (min-width:320px) and (max-width:630px){
+    .secimage{
+        display: none;
+    }
+}
+
 
