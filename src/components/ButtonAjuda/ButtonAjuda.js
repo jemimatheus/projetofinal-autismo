@@ -5,7 +5,7 @@ import "./ButtonAjuda.css";
 const ButtonAjuda = () => {
   return (
     <Fragment>
-      <h3 style={{color:"#f0d21f"}}> Clique no botão abaixo e veja dicas de como podemos melhorar a vivência do autista e sua familia?</h3>
+      <h3 style={{color:"#f0d21f"}}> Clique no botão abaixo e veja dicas de como podemos melhorar a vivência do autista e sua familia.</h3>
       <section className="m-1">
         <div>
           <p>
