@@ -6,6 +6,12 @@ margin-bottom:-20px;
 
 }
 
+@media (max-width:1800px) and (min-width:940px){
+    .secimage{ 
+        height:450px
+    }
+}
+
 @media (min-width:310px) and (max-width:630px){
     .secimage{
         display: none;
