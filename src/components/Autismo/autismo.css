@@ -736,3 +736,11 @@
 
 		} 
 
+@media (min-width:310px) and (max-width:540px){
+	.inner >p{
+		text-align:center!important;
+	}
+	.card-text{
+		text-align:center !important;	
+	}
+}
