@@ -1,0 +1,26 @@
+/* 
+.secfamily{
+	display: grid;
+    grid-template-columns: 1fr 1fr;
+    
+}
+
+.image-secfamily  {
+  
+   display:grid;
+   grid-template-columns: 1fr 1fr;
+   max-width:200px;
+   height: 200px;
+ 
+  
+    
+}
+.secfamily-text {
+   
+    text-align: justify;
+    padding-left: 40px ;
+    color: #8b8686;
+    font-family: 'Quicksand', sans-serif;
+    padding-right: 40px;
+}
+ */

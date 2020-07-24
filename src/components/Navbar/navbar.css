@@ -1,0 +1,147 @@
+/* Hamburguer */
+
+
+.menu {
+  margin: 0 30px 0 0;
+}
+.menu a {
+  clear: right;
+  text-decoration: none;
+  color: rgb(202, 5, 5);
+  margin: 0 10px;
+  line-height: 70px;
+}
+
+label {
+  margin: 0 40px 0 0;
+  font-size: 26px;
+  line-height: 70px;
+  display: none;
+  width: 26px;
+  float: right;
+}
+#toggle {
+  display: none;
+}
+
+
+@media only screen and (max-width: 800px) {
+  
+  
+}
+
+  
+/* Menu */
+
+.menu-navigation-icons  {
+    font-family: 'Quicksand', sans-serif;
+    text-align: center;
+    font-size:0;
+    background-color: #f5eaea;
+       
+}
+
+.menu-navigation-icons a {
+    display: inline-block !important;
+    color: #3b3b3b;
+    background-color: #232526;
+    font-size: 40px;
+    font-weight: bold !important;
+    box-shadow: 1px 2px 1px 0 rgba(0, 0, 0, 0.1);
+    text-transform: uppercase;
+    text-decoration: none !important;
+    white-space: nowrap !important;
+    width: 136px;
+    height: 109px;
+}
+
+.menu-navigation-icons a:hover{
+    opacity:0.92;
+}
+
+.menu-navigation-icons a i {
+    display: block;
+    line-height: 2;
+}
+
+.menu-navigation-icons a span {
+    display: block;
+    font-size: 11px;
+    font-weight: bold ;
+    line-height: 0 ;
+    text-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
+    
+}
+
+
+/* Menu cores */
+
+
+.menu-navigation-icons a.menu-blue		{ background-color: #57b2d8; }
+.menu-navigation-icons a.menu-blue i	{ color: #3e8fb1; }
+
+.menu-navigation-icons a.menu-yellow	{ background-color: #dadf50; }
+.menu-navigation-icons a.menu-yellow i	{ color: #babe4a; }
+
+
+
+.menu-navigation-icons a.menu-bluetwo		{ background-color: #3e60f5; }
+.menu-navigation-icons a.menu-bluetwo i	{ color: #3b4996; }
+
+
+
+.menu-navigation-icons a.menu-red 		{ background-color: #f26262; }
+.menu-navigation-icons a.menu-red i		{ color: #d34646; }
+
+/* responsive */
+
+.slicknav_menu {
+    display:none;
+}
+@media (min-width: 800px){
+  .nav{
+    display:none;
+  }
+}
+
+@media (max-width: 800px) {
+
+  /* Nav */
+ label {
+        display: block;
+        cursor: pointer;
+    }
+    .menu {
+        text-align: center;
+        width: 100%;
+        display: none;
+    }
+    .menu a {
+        display: block;
+        border-bottom: 1px solid #bababe;
+        margin: 0;
+        color: red;
+        font-weight: bold;
+        background-color: #3e8fb1;
+     
+    }
+    #toggle:checked + .menu {
+        display: block;
+    }
+    
+ 
+    .menu-navigation-icons{
+        display:none;
+    }
+
+    .slicknav_nav a i {
+        display: none;
+    }
+
+    .slicknav_menu {
+        display:block;
+    }
+
+
+    
+}
